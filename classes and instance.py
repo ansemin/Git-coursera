@@ -9,7 +9,8 @@ class Employee:
         # self is needed because method expects at least one instance 
         return '{} {}'.format(self.first, self.last)
     
-#Class -> blue print of instances
+#Class -> blue print of instances/as soon as it is defined, it becomes instance
+# Instance -> unique object created from a class
 
 employ_1=Employee('Corey', 'Schafer', 50000)
 employ_2=Employee('Test','User',6000) # each of these are the instances of the class employee

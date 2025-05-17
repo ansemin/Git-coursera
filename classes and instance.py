@@ -20,7 +20,7 @@ print(employ_1.fullname())
 print(Employee.fullname(employ_1)) #these are the same thing because employ_1 in employ.fullname() is 
 # pass on as instance to Employee.fullname(employ_1)
 
-# print(employ_1.email)
+# print(employ_1.email
 # print(employ_2.email)
 # print(employ_1.fullname()) #make sure to add the () to call the method
 # print(employ_2.fullname())
